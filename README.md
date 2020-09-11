@@ -26,6 +26,11 @@ This module shows a list of all installed patches from [mage-one.com](https://ma
 
 ## Clean cache/run install scripts
 
+In order to see the page, logout and login again.
+
+# Usage
+
+You can find the list of installed patches in `System > Tools > Mage One Patch List`
 
 # Uninstall
 ## with composer
