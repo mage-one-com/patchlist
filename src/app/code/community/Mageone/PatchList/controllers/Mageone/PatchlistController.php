@@ -7,7 +7,7 @@ class Mageone_PatchList_Mageone_PatchlistController extends Mage_Adminhtml_Contr
 
     protected function _isAllowed()
     {
-        return Mage::getSingleton('admin/session')->isAllowed('admin');
+        return Mage::getSingleton('admin/session')->isAllowed('system/tools/patchlist');
     }
 
     public function indexAction()
