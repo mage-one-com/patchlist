@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <adminhtml_mageone_patchlist_index>
+        <reference name="content">
+            <block type="mageone_patchlist/admin_patchlist" name="mageone.patchlist" />
+        </reference>
+    </adminhtml_mageone_patchlist_index>
+</layout>

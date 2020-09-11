@@ -1,0 +1,12 @@
+{
+  "name": "mage_one_com/patchlist",
+  "type": "magento-module",
+  "license": "modified BSD 3-Clause",
+  "description": "Patch List Overview for Mage One",
+  "authors": [
+    {
+      "name": "Paddox GmbH",
+      "email": "info@mage-one.com"
+    }
+  ]
+}

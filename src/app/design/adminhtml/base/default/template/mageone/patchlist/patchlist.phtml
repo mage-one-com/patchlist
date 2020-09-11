@@ -1,0 +1,26 @@
+<?php /** @var Mageone_PatchList_Block_Admin_Patchlist $this */ ?>
+<div class="content-header">
+    <table cellspacing="0">
+        <tr>
+            <td style="width:50%;"><h3 class=""><?= $this->helper('mageone_patchlist')->__('Patch List') ?></h3></td>
+            <td class="form-buttons">
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="entry-edit">
+    <?php $installedPatches = $this->getAllInstalledPatches(); ?>
+    <p><?= $this->helper('mageone_patchlist')->__('The following patches are already installed.') ?></p>
+    <dl class="item-options">
+        <?php foreach ($installedPatches as $patchName => $patchDescription): ?>
+            <dt><?= $patchName ?></dt>
+            <dd><?= $patchDescription ?></dd>
+        <?php endforeach; ?>
+    </dl>
+</div>
+<div class="content-footer" style="    margin-top:18px;
+    border-top:4px solid #dfdfdf;
+    padding-top:.25em;">
+    <p><?= $this->helper('mageone_patchlist')->__(
+            'You can find all patch files on <a href="https://my.mage-one.com/" target="_blank">my.mage-one.com</a>.') ?></p>
+</div>

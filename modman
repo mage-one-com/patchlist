@@ -1,0 +1,4 @@
+src/app/design/adminhtml/base/default/layout/mageone/patchlist.xml  app/design/adminhtml/base/default/layout/mageone/patchlist.xml
+src/app/design/adminhtml/base/default/template/mageone/patchlist  app/design/adminhtml/base/default/template/mageone/patchlist
+src/app/etc/modules/Mageone_PatchList.xml  app/etc/modules/Mageone_PatchList.xml
+src/app/code/community/Mageone/PatchList  app/code/community/Mageone/PatchList

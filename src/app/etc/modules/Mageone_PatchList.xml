@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mageone_PatchList>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Mageone_PatchList>
+    </modules>
+</config>

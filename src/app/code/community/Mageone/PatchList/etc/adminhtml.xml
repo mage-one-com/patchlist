@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <tools>
+                                <children>
+                                    <patchlist translate="title" module="mageone_patchlist">
+                                        <title>Mage One Patch List</title>
+                                        <sort_order>10</sort_order>
+                                    </patchlist>
+                                </children>
+                            </tools>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <system>
+            <children>
+                <tools>
+                    <children>
+                        <patchlist module="mageone_patchlist" translate="title">
+                            <title>Mage One Patch List</title>
+                            <sort_order>1</sort_order>
+                            <action>adminhtml/mageone_patchlist</action>
+                        </patchlist>
+                    </children>
+                </tools>
+            </children>
+        </system>
+    </menu>
+</config>
